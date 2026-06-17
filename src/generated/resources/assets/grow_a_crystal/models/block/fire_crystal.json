@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "grow_a_crystal:block/fire_crystal"
+  }
+}
