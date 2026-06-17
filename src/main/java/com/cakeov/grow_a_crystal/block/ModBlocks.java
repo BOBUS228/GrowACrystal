@@ -21,16 +21,19 @@ public class ModBlocks {
             ()->new Crystal(BlockBehaviour.Properties.of()
                     .strength(4)
                     .requiresCorrectToolForDrops()
+                    .noOcclusion()
             ));
     public static final DeferredBlock<Block> FIRE_CRYSTAL = registerBlock("fire_crystal",
             ()->new Crystal(BlockBehaviour.Properties.of()
                     .strength(4)
                     .requiresCorrectToolForDrops()
+                    .noOcclusion()
             ));
     public static final DeferredBlock<Block> WATER_CRYSTAL = registerBlock("water_crystal",
             ()->new Crystal(BlockBehaviour.Properties.of()
                     .strength(4)
                     .requiresCorrectToolForDrops()
+                    .noOcclusion()
             ));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
